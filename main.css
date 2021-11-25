@@ -5,6 +5,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+overflow-x: hidden;
 }
  @font-face {
     font-family: 'Sofia Pro Regular';
@@ -204,7 +205,7 @@ h1 {
 }
 @media screen and (min-width: 900px) {
   #skills img {
-    width: 50%;
+    width: 70%;
     /* height: auto; */
   }
 }
@@ -310,7 +311,7 @@ height:50vh;
 
 }
   #skills img {
-    width: 50%;
+    width: 90%;
     /* height: auto; */
   }
 .header_text h1{
