@@ -5,7 +5,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-overflow-x: hidden;
+/* overflow-x: hidden; */
 }
  @font-face {
     font-family: 'Sofia Pro Regular';
@@ -220,51 +220,53 @@ h1 {
   height: 60px;
 }
 .portfolio {
-  margin: 0 auto;
-  /* background: #000; */
-  width: 700px;
-  /* display: flex; */
-  justify-content: space-between;
-  flex-wrap: wrap;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows:
-    minmax(100px, max-content)
-    repeat(auto-fill, 200px) 20%;
+  grid-template-columns:1fr 1fr;
+  /* rid-template-rows: 400px auto; */
+  margin: 0 auto;
+ grid-gap: 40px;
+  /* background: #000; */
+  /* max-width: 700px; */
+  /* display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; */
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr; */
+  /* grid-template-rows:400px auto; */
   /* grid-template-rows: minmax(300px, auto); */
-  grid-gap: 40px;
+ 
 }
 .portfolio_item {
   margin-bottom: 150px;
 }
 .project_1 {
-  background-image: url(./kombucha_2.png);
+  /* background-image: url(./kombucha_2.png); */
   
 }
 .project_2 {
-  background-image: url(./converse.png);
+  /* background-image: url(./converse.png); */
 }
 .project_3 {
-  background-image: url(./timeuler.png);
+  /* background-image: url(./timeuler.png); */
 }
 .project_4 {
-  background-image: url(./economics.png);
+  /* background-image: url(./economics.png); */
 }
 .project_img {
   background-size: cover;
-  /* background-position: center; */
+  background-position: center center;
   filter: grayscale(1);
   border-radius: 5px;
-  width:auto;
-  height: 300px;
-  margin-bottom: 20px;
+  width:300px;
+  height: 200px;
+  /* margin-bottom: 20px; */
   transition: all 0.3s ease-in-out;
 }
 .project_img:hover {
   filter: grayscale(0);
-  box-shadow: 0px 2px 23px 6px rgba(0, 0, 0, 0.13);
+  /* box-shadow: 0px 2px 23px 6px rgba(0, 0, 0, 0.13);
   -webkit-box-shadow: 0px 2px 23px 6px rgba(0, 0, 0, 0.13);
-  -moz-box-shadow: 0px 2px 23px 6px rgba(0, 0, 0, 0.13);
+  -moz-box-shadow: 0px 2px 23px 6px rgba(0, 0, 0, 0.13); */
 }
 #wkprocess h3 {
   margin-top: 10px;
@@ -339,9 +341,10 @@ line-height: 40px;
   /* width: 700px; */
   /* display: flex; */
   justify-content: space-between;
- 
+/*  
   display: grid;
   grid-template-columns: 1fr;
+  grid-template-rows: 400px; */
   /* grid-template-rows:
     minmax(100px, max-content)
     repeat(auto-fill, 200px) 20%; */
