@@ -109,6 +109,11 @@ ul li a:hover {
   visibility: visible;
   transform: translateX(0);
 }
+.nav-list-item-link {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Sofia Pro Regular";
+}
 #mobile-nav-item {
   position: absolute;
   top: 100px;
@@ -165,6 +170,11 @@ ul li a:hover {
 }
 h4 {
   color: #fff;
+}
+.intro {
+  font-size: 25px;
+  line-height: 25px;
+  margin-bottom: 10px;
 }
 h1 {
   font-weight: 700;
@@ -361,7 +371,20 @@ h1 {
     height: 50vh;
   }
 }
-
+.glass {
+  display: none;
+  position: absolute;
+  top: 90px;
+  z-index: -1;
+  left: -10px;
+}
+.glass-2 {
+  display: none;
+  position: absolute;
+  top: 90px;
+  z-index: -1;
+  right: 100px;
+}
 @media screen and (max-width: 768px) {
   header {
     height: 70vh;
@@ -392,17 +415,21 @@ h1 {
     line-height: 40px;
     padding-top: 0;
     margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .header_text h4 {
+    line-height: 22px;
   }
   .ja::after {
-    /* content: "";
+    content: "";
     position: absolute;
     background-image: url(./mail.png);
-    background-position: center;
+    background-position: top right;
     background-size: cover;
     height: 40px;
     width: 40px;
-    right: 90px;
-    top: 10%; */
+    right: 70px;
+    top: 7%;
   }
 
   .portfolio {
