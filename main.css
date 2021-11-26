@@ -248,20 +248,23 @@ h1 {
   /* margin-bottom: 150px; */
 }
 .project_1 {
-  /* background-image: url(./kombucha_2.png); */
+  background-image: url(./konbucha.png);
 }
 .project_2 {
-  background-image: url(./converse.png);
+  background-image: url(./converse.jpg);
 }
 .project_3 {
-  background-image: url(./timeuler.png);
+  background-image: url(./timeuler.jpg);
 }
 .project_4 {
-  background-image: url(./economics.png);
+  background-image: url(./economic.jpg);
 }
 .project_img {
-  background-size: cover;
-  background-position: top center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: cover;
+  background-position: center; */
   filter: grayscale(1);
   border-radius: 5px;
   width: 100%;
@@ -283,8 +286,11 @@ h1 {
   color: #384859;
 }
 .prjt_name {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
   color: #384859;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 .prjt_type {
   color: #9aa2ab;
