@@ -459,5 +459,12 @@ h1 {
     height: 30px;
   }
 }
+
 @media screen and (max-width: 600px) {
+  .portfolio {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 40px;
+  }
 }
