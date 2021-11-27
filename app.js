@@ -1,7 +1,7 @@
 window.addEventListener("DOMContentLoaded", (event) => {
   setTimeout(function () {
     document.getElementById("preloader").style.visibility = "hidden";
-  }, 4000);
+  }, 3000);
 
   // alert();
 });
