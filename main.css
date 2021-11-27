@@ -56,7 +56,7 @@ header {
 }
 nav {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   padding: 20px 30px;
 }
 ul li {
@@ -166,7 +166,7 @@ ul li a:hover {
 }
 .header {
   padding: 20px 0;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 h4 {
   color: #fff;
@@ -272,7 +272,7 @@ h1 {
   margin: 0 auto;
 }
 #wkprocess img {
-  height: 60px;
+  height: 90px;
 }
 .portfolio {
   padding-block: 20px;
@@ -326,11 +326,17 @@ h1 {
   transform: translateY(-10px);
 }
 #wkprocess h3 {
-  margin-top: 10px;
+  font-size: 25px;
+  margin-top: 20px;
   color: #384859;
 }
 .about_me_text {
   color: #384859;
+  font-size: 18px;
+  width: 60%;
+  /* text-align: center; */
+  margin: 0 auto;
+  line-height: 25px;
 }
 .prjt_name {
   font-size: 20px;
@@ -410,23 +416,40 @@ h1 {
     width: 90%;
     /* height: auto; */
   }
+  #wkprocess img {
+    height: 50px;
+  }
   .header_text {
     position: absolute;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
     /* text-align: center; */
   }
   .header_text h1 {
     font-weight: 700;
-    font-size: 2.5rem;
-    line-height: 40px;
+    font-size: 2.7rem;
+    line-height: 50px;
     padding-top: 0;
     margin-top: 0;
     margin-bottom: 10px;
   }
   .header_text h4 {
     line-height: 22px;
+  }
+  .about_me_text {
+    color: #384859;
+    font-size: 18px;
+    width: 90%;
+    /* text-align: center; */
+    margin: 0 auto;
+    line-height: 25px;
+  }
+  #wkprocess h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #384859;
   }
   .ja::after {
     display: none;
