@@ -461,6 +461,9 @@ h1 {
 }
 
 @media screen and (max-width: 600px) {
+  header {
+    height: 60vh;
+  }
   .portfolio {
     margin: 0 auto;
     display: grid;
