@@ -1,3 +1,11 @@
+window.addEventListener("DOMContentLoaded", (event) => {
+  setTimeout(function () {
+    document.getElementById("preloader").style.visibility = "hidden";
+  }, 4000);
+
+  // alert();
+});
+
 let hamburger = document.getElementById("hamburger");
 let mobile_nav = document.querySelector(".mobile-nav");
 let close = document.getElementById("close-hamburger");

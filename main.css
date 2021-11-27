@@ -26,6 +26,23 @@ body {
   /* font-family: "Open Sans", sans-serif; */
   overflow-x: hidden !important;
 }
+#preloader {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* height: 100%;
+  width: 100%; */
+  background-color: #fff;
+  z-index: 100;
+  visibility: visible;
+}
+
 .container {
   width: 75%;
   margin: 0 auto;
@@ -374,7 +391,7 @@ h1 {
       } */
 @media screen and (max-width: 1025px) {
   header {
-    height: 50vh;
+    height: 60vh;
   }
   .portfolio {
     margin: 0 auto;
@@ -382,6 +399,28 @@ h1 {
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
     /* background: #000; */
+  }
+  .header_text {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /* text-align: center; */
+  }
+  .header_text h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 50px;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .header_text h4 {
+    line-height: 22px;
+  }
+  .ja::after {
+    display: none;
   }
 }
 
@@ -401,7 +440,7 @@ h1 {
 }
 @media screen and (max-width: 768px) {
   header {
-    height: 50vh;
+    height: 70vh;
   }
   #hamburger {
     display: block;
