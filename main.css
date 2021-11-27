@@ -429,6 +429,7 @@ h1 {
     line-height: 22px;
   }
   .ja::after {
+    display: none;
     content: "";
     position: absolute;
     background-image: url(./mail.png);
