@@ -46,6 +46,9 @@ body {
   margin: 0 auto;
   /* background: #000; */
 }
+.text-w {
+  color: #fff;
+}
 section {
   position: relative;
   padding: 20px 0;
@@ -169,7 +172,10 @@ ul li a:hover {
   padding-top: 0;
   margin-top: 0;
 }
-
+.header_text h2 {
+  font-size: 20px;
+  line-height: 30px;
+}
 .clw {
   color: #fff;
 }
@@ -205,7 +211,28 @@ h1 {
   padding-top: 0;
   margin-top: 0;
 }
-.ja::after {
+
+#skills_icons img {
+  filter: grayscale(1);
+  height: auto;
+  margin-bottom: 10px;
+  transition: all 0.3s ease-in-out;
+}
+#skills_icons img:hover {
+  transform: translateY(-10px);
+  filter: grayscale(0);
+}
+
+#wkprocess img {
+  filter: grayscale(1);
+  height: auto;
+  margin-bottom: 10px;
+  transition: all 0.3s ease-in-out;
+}
+#wkprocess img:hover {
+  transform: translateY(-10px);
+  filter: grayscale(0);
+} /* .ja::after {
   content: "";
   position: absolute;
   background-image: url(./mail.png);
@@ -214,9 +241,9 @@ h1 {
   height: 50px;
   width: 70px;
   right: 60px;
-  /* left: 0; */
-  top: 13%;
-}
+  /* left: 0;
+  top: 13%; 
+}*/
 .portfolio-btn {
   background: #000;
   padding: 12px 60px;
@@ -303,16 +330,7 @@ h1 {
   grid-template-columns: repeat(5, 1fr);
   /* grid-template-rows: minmax(100px); */
 }
-#wkprocess img {
-  filter: grayscale(1);
-  height: auto;
-  margin-bottom: 10px;
-  transition: all 0.3s ease-in-out;
-}
-#wkprocess img:hover {
-  transform: translateY(-10px);
-  filter: grayscale(0);
-}
+
 #html::after {
   position: absolute;
 }
