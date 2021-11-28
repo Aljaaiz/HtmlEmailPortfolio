@@ -10,7 +10,9 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap"
       rel="stylesheet"
     />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/3.0.0/noframework.waypoints.min.js"></script>
     <link rel="stylesheet" href="main.css" />
 <!-- Hotjar Tracking Code for My site -->
     <script>
@@ -50,7 +52,7 @@ drift.SNIPPET_VERSION = '0.3.1';
 drift.load('dpt476sxiyg6');
 </script>
 <!-- End of Async Drift Code -->
-<title>JS Portfoilo</title>
+<title>Html Email Developer</title>
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -74,18 +76,18 @@ drift.load('dpt476sxiyg6');
 <!-- Start of Async Drift Code -->
 
   </head>
-  <body>
+  <body style="position: relative;">
 <div id="preloader">
 <img src="./loader.gif" alt="">
   <!-- <h4 style="color: orangered;margin-top: 10px;">Html Email Developer is loading....</h4> -->
 </div>
-    <header>
+    <header id="header">
       <nav>
         <ul id="desktop-menu">
           <li><a href="#about">About</a></li>
           <li><a href="#work-process">process</a></li>
           <li><a href="#skills">Skills</a></li>
-          <li><a href="#portfolio">Portfoilo</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         <div id="hamburger">
@@ -120,20 +122,25 @@ drift.load('dpt476sxiyg6');
 
       <div class="container">
         <div class="header_text">
-          <h4 class="intro">Hi my name is</h4>
+          <span class="intro">Hi my name is</span>
           <h1>
-            <span class="clw ja">JAMIU</span> <br /><span class="clgradient"
+            <span class="clw ja">JAMIU</span> <br/><span class="clgradient"
               >ADEMOLA</span
             >
           </h1>
           <h4>HTML EMAIL DEVELOPER / CONTENT EDITOR</h4>
-          <button class="portfolio-btn">
+          <!-- <button class="portfolio-btn">
             <a href="#portfolio">Portfoilo</a>
-          </button>
+          </button> -->
         </div>
       </div>
     </header>
 
+<a href="#header" id="right-sticky" style="position: fixed;top:400px !important;display:block;z-index:1;right:0;height:40px;
+width: 10%;background:black;text-align: center;color:white;cursor: pointer;text-decoration: none;padding:10px;transform: rotateX(90);">
+<span>Move up</span>
+</a>
+<div class="container">
     <section id="about">
       <div class="glass">
         <div class="circle one"></div>
@@ -141,12 +148,12 @@ drift.load('dpt476sxiyg6');
         <div class="circle three"></div>
       </div>
       <div class="container">
-        <h1 class="header text_c clgradient">About</h1>
+        <h2 class="header text_c clgradient">About</h2>
         <p
           class="about_me_text"
           
         >
-         I'm Jamiu Ademola a Html Email Developer based in Dubai UAE. I have been building emails for business for the past 2 years. Helping business with Html email developement.I'm a develper constantly expanding my technical Knowledge and skills in different aspects of email development to serve business better.
+         I'm Jamiu Ademola, a HTML Email Developer based in Dubai, UAE. For the past 2 years, I’ve been building emails for businesses. I'm constantly expanding my technical knowledge and skills in every aspect of email development to better serve client's customers and with the client's marketing team's processes.
         </p>
       </div>
       <div class="glass-2">
@@ -158,31 +165,44 @@ drift.load('dpt476sxiyg6');
 
     <section id="skills">
       <div class="container">
-        <h1 class="header text_c clgradient">Skills</h1>
+        <h2 class="header text_c clgradient">Skills</h2>
         <p class="text_c" style="margin: 0 auto; line-height: 30px">
-          <img src="./skills.png" alt="" />
+       <div id="skills_icons">
+           <img src="./Html_Icon.png" alt="html-icon">
+        
+          <img src="./css3.png" alt="css3-icon" id="html">
+          <img src="./sass.png" alt="css3-icon">
+          <img src="./js_icon.png" alt="javascript-icon">
+          <img src="./jquery.png"  width="30%" alt="jquery-icon">
+          <img src="./litmus.png" alt="litmus-icon">
+          <img src="./photoshop.png" alt="photoshop-icon">
+          <img src="./sketch.png" alt="sketch-icon">
+          <img src="./foundation.jpg" alt="foundation-icon">
+          <img src="./mailchimp.png" alt="mailchimp-icon" width="30%">
+          <img src="./git.png" alt="mailchimp-icon">
+        </div>
         </p>
       </div>
     </section>
 
     <section id="work-process">
       <div class="container">
-        <h1 class="header text_c clgradient">Work Process</h1>
+        <h2 class="header text_c clgradient">Work Process</h2>
         <div id="wkprocess">
           <div class="text_c">
             <img src="./plan.png" alt="plan" />
             <h3 class="text_c">Plan</h3>
           </div>
           <div class="text_c">
-            <img src="./design.png" alt="plan" />
+            <img src="./design.png" alt="design" />
             <h3 class="text_c">Design</h3>
           </div>
           <div class="text_c">
-            <img src="./test.png" alt="plan" />
+            <img src="./test.png" alt="test" />
             <h3 class="text_c">Test</h3>
           </div>
           <div class="text_c">
-            <img src="./launch.png" alt="plan" />
+            <img src="./launch.png" alt="launch" />
             <h3 class="text_c">Launch</h3>
           </div>
         </div>
@@ -192,7 +212,7 @@ drift.load('dpt476sxiyg6');
     <!------ START OF PORTFOLIO SECTION ------>
     <section id="portfolio">
       <div class="container">
-        <h1 class="header text_c clgradient">Portfolio</h1>
+        <h2 class="header text_c clgradient">Portfolio</h2>
 
         <div class="portfolio">
           <div class="portfolio_item">
@@ -204,7 +224,7 @@ drift.load('dpt476sxiyg6');
             </a>
             <div>
               <h3 class="prjt_name text_c">Landing Page</h3>
-              <p class="prjt_type text_c">Kombucha landing page</p>
+              
             </div>
           </div>
 
@@ -213,8 +233,8 @@ drift.load('dpt476sxiyg6');
               <div class="project_img project_2"></div>
             </a>
             <div>
-              <h3 class="prjt_name text_c">Converse</h3>
-              <p class="prjt_type text_c">Html Promotional Email</p>
+              <h3 class="prjt_name text_c">Promotional Email</h3>
+             
             </div>
           </div>
 
@@ -222,16 +242,16 @@ drift.load('dpt476sxiyg6');
             <a href="https://timeuler.netlify.app" target="_blank">
               <div class="project_img project_3"></div>
             </a>
-            <h3 class="prjt_name text_c">TimeUler</h3>
-            <p class="prjt_type text_c">Transactional Email</p>
+            <h3 class="prjt_name text_c">Transactional Email</h3>
+           
           </div>
 
           <div class="portfolio_item">
             <a href="https://economist.netlify.app" target="_blank">
               <div class="project_img project_4"></div>
             </a>
-            <h3 class="prjt_name text_c">Economist</h3>
-            <p class="prjt_type text_c">News Letter Email</p>
+            <h3 class="prjt_name text_c">News Letter Email</h3>
+           
           </div>
         </div>
       </div>
@@ -241,16 +261,16 @@ drift.load('dpt476sxiyg6');
 
     <section id="contact">
       <div class="container">
-        <h1 class="header text_c clgradient">Contact</h1>
+        <h2 class="header text_c clgradient">Contact</h2>
         <div id="contact_div">
-          <a href="https://www.instagram.com/jamiuademola114/" target="_blank"><img src="./instagram.png" alt="" /></a>
-          <a href="https://twitter.com/Jamiuademola114" target="_blank"><img src="./twitter.png" alt="" /></a>
+      
           <a href="https://github.com/Aljaaiz?tab=repositories" target="_blank"><img src="./github.png" alt="" /></a>
+          <a href="https://www.linkedin.com/in/jamiu-ademola-93b07215b/" target="_blank"><img src="./linkedin.png" alt="" /></a>
           <a href="mailto:aljaaiz1@gmail.com" target="_blank"><img src="./gmail.png" alt="" /></a>
         </div>
       </div>
     </section>
-
+</div>
   
     <script src="app.js"></script>
   </body>

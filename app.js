@@ -2,8 +2,6 @@ window.addEventListener("DOMContentLoaded", (event) => {
   setTimeout(function () {
     document.getElementById("preloader").style.visibility = "hidden";
   }, 3000);
-
-  // alert();
 });
 
 let hamburger = document.getElementById("hamburger");
