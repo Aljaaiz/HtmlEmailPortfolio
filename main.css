@@ -22,8 +22,7 @@
     url("./local/Sofia Pro Black Az.woff") format("woff");
 }
 body {
-  font-family: "Sofia Pro Regular";
-  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Sofia Pro Regular", "Open Sans", sans-serif;
   overflow-x: hidden !important;
 }
 #preloader {
@@ -180,11 +179,9 @@ ul li a:hover {
   color: #fff;
 }
 .clgradient {
-  /* background: -webkit-linear-gradient(rgb(214, 15, 164), rgb(241, 35, 35));
-  
-   */
+  background: -webkit-linear-gradient(rgb(214, 15, 164), rgb(241, 35, 35));
   background-image: linear-gradient(60deg, #e21143, #ffb03a);
-  background-clip: text;
+  /* background-clip: text; */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -409,6 +406,14 @@ h1 {
   font-size: 25px;
   margin-top: 10px;
   color: #384859;
+}
+.wkprocess_text {
+  color: #384859;
+  font-size: 18px;
+  width: 90%;
+  /* text-align: center; */
+  margin: 15px auto;
+  line-height: 25px;
 }
 .about_me_text {
   color: #384859;
