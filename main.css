@@ -41,8 +41,9 @@ body {
 }
 
 .container {
-  width: 75%;
+  width: 66.66%;
   margin: 0 auto;
+  padding: 0 20px;
   /* background: #000; */
 }
 .text-w {
@@ -190,7 +191,7 @@ ul li a:hover {
 }
 .header {
   padding: 20px 0;
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 20px;
 }
 .intro {
@@ -339,7 +340,7 @@ h1 {
   }
 }
 #wkprocess {
-  width: 70%;
+  width: 600px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin: 0 auto;
@@ -349,7 +350,7 @@ h1 {
   margin-bottom: 10px;
 }
 #wkprocess img {
-  width: 50%;
+  width: 60px;
 }
 .portfolio {
   padding-block: 20px;
@@ -410,7 +411,7 @@ h1 {
 .wkprocess_text {
   color: #384859;
   font-size: 18px;
-  width: 90%;
+
   /* text-align: center; */
   margin: 15px auto;
   line-height: 25px;
@@ -418,7 +419,7 @@ h1 {
 .about_me_text {
   color: #384859;
   font-size: 18px;
-  width: 100%;
+
   /* text-align: center; */
   margin: 0 auto;
   line-height: 25px;
@@ -459,7 +460,7 @@ h1 {
       } */
 @media screen and (max-width: 1024px) {
   header {
-    height: 60vh;
+    height: 70vh;
   }
   .portfolio {
     margin: 0 auto;
