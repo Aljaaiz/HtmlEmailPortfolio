@@ -47,3 +47,6 @@ $(document).ready(function () {
     } // End if
   });
 });
+
+let names = ["tunji", "Wale", "Smith"];
+console.log(names);
